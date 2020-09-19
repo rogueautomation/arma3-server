@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+  # provider: hyperv
+  # network:
+  # - ["public_network", bridge: "Default Switch"]
+provisioner:
+  name: chef_zero
+  product_name: chef
+  product_version: 15.7.32
+verifier:
+  name: inspec
+platforms:
+  - name: bento/ubuntu-20.04
+  # - name: bento/ubuntu-18.04
+  # - name: generic/ubuntu2004
+suites:
+  - name: default
+    verifier:
+      inspec_tests:
+        - test/integration/default
+    attributes:
