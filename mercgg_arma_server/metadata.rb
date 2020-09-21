@@ -1,6 +1,6 @@
 name 'mercgg_arma_server'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'RogueAutomation'
+maintainer_email 'rogueautomation@rogueautomation.com'
 license 'All Rights Reserved'
 description 'Installs/Configures mercgg_arma_server'
 version '0.1.0'

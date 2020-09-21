@@ -1,0 +1,1 @@
+az deployment group create --resource-group rg-arma3-testing --template-file /Users/username/arma_server.json --parameters /Users/username/arma_server_parameters.json
